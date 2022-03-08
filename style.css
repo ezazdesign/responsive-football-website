@@ -1,0 +1,58 @@
+/* ------- Font -------  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*---------------------------------
+    Common Style or utilities
+------------------------------------*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/*---------- Head Section -----------*/
+
+.head-part {
+    background-color: #2D25A0;
+    padding: 100px 0px;
+
+}
+
+.flexible {
+    display: flex;
+    margin-bottom: 130px;
+    justify-content: space-between;
+}
+
+.half-width {
+    width: 40%;
+    margin-left: 156px;
+    margin-right: 140px;
+}
+
+.half-width img {
+    width: 556px;
+    height: 438px;
+}
+
+.head-title {
+    color: white;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 27px;
+}
+
+.link-button {
+    text-decoration: none;
+    background: #E02C6D;
+    padding: 10px 40px;
+    border-radius: 2px;
+    color: white;
+    font-weight: 500;
+}
+
+.link-button span {
+    margin-left: 8px;
+    width: 24px;
+}
